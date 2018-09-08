@@ -3,3 +3,4 @@ My name is wqc
 who are you
 fine
 Git has a mutable index called stage.
+Git tracks changes.
