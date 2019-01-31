@@ -5,15 +5,14 @@ alias ur=undelfile
 
 undelfile()
 {
-	if [ ! -d "~/.trash" ]; then
-		mkdir -p ~/.trash
-	fi
     mv -i  ~/.trash/$@ ./
 }
 
 trash()
 {
-	
+	if [ ! -d "~/.trash" ]; then
+		mkdir -p ~/.trash
+	fi
     mv $@ ~/.trash/
 }
 
