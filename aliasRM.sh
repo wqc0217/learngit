@@ -1,4 +1,3 @@
-mkdir -p ~/.trash
 alias rm=trash
 alias r=trash
 alias rl='ls ~/.trash'
